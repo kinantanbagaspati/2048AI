@@ -1,0 +1,9 @@
+1. 
+Algoritma yang saya gunakan ialah minimax, yang cara kerjanya sudah saya jelaskan pada tic tac toe AI.
+Oleh karena itu saya dapat menjelaskan algoritma lain, yakni hill climbing.
+Hill climbing ialah algoritma yang mengambil state paling baik dari semua state yang dapat diraih dari state saat ini.
+Pada dasarnya algoritma ini sangat mirip dengan greedy, dan memiliki kekurangan yang sama yakni bisa jadi state yang menjadi puncak dari hill climbing hanyalah state terbaik lokal.
+2.
+Cara algoritma menilai board dalam implementasi saya ada 2 cara umum, yakni:
+- Memberikan weight pada tiap kotak dalam papan, (dalam implementasi ada 1 hingga 16 atau 2**0 hingga 2**15) atau
+- Memberikan weight yang mengalikan bilangan terbesar hingga terkecil pada papan
